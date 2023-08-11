@@ -16,14 +16,14 @@ elif size == "L":
     bill = 25
     
     
-#Getting the responce if users wants Pepperoni on a small pizza or not
+#Getting the response if users wants Pepperoni on a small pizza or not
 if pepperoni == "Y" and size == "S":
     bill += 2
-#Getting the responce if users wants Pepperoni on a medium and large pizza or not
+#Getting the response if users wants Pepperoni on a medium and large pizza or not
 elif pepperoni == "Y" and (size == "M" or size == "L"):
     bill += 3
 
-#Getting the responce if users wants Extra Cheese or not
+#Getting the response if users wants Extra Cheese or not
 if extra_cheese == "Y":
     bill += 1
     
