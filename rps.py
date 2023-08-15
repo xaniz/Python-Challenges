@@ -49,3 +49,4 @@ elif (human == 1 and cpu == 0) or (human == 0 and cpu == 2) or (human == 2 and c
     print("You win")
 elif (human == 0 and cpu == 1) or (human == 2 and cpu == 0) or (human == 1 and cpu == 2):
     print("You lose")
+    
